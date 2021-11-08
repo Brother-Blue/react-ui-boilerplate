@@ -15,7 +15,16 @@ export default function AdminLogin() {
 	return (
 		<Stack minH={"100vh"} direction={{ base: "column", md: "row" }}>
 			<Flex p={8} flex={1} align={"center"} justify={"center"}>
-				<Stack spacing={4} w={"full"} maxW={"md"}>
+				<Stack
+					spacing={4}
+					w={"full"}
+					maxW={"md"}
+					style={{
+						border: "2px solid rgb(100,100,100)",
+						borderRadius: "1rem",
+						padding: "1.2em",
+						boxShadow: "0 0 3px 3px rgba(10,10,10,0.3)",
+					}}>
 					<Heading fontSize={"2xl"}>Sign in to your account</Heading>
 					<FormControl id="email">
 						<FormLabel>Email address</FormLabel>
