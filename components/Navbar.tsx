@@ -20,6 +20,7 @@ export const Navbar = () => {
 	const loadMenu = (isMobile = false) => {
 		const menus = [
 			{ name: "Home", link: "/" },
+			{ name: "About", link: "/about" },
 			{ name: "Admin", link: "/admin" },
 		];
 
