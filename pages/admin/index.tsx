@@ -4,11 +4,7 @@ import React from "react";
 // interface Props {}
 
 const AdminLogin = () => {
-	return (
-		<div>
-			<ThemeToggle />
-		</div>
-	);
+	return <div>Admin page</div>;
 };
 
 export default AdminLogin;
