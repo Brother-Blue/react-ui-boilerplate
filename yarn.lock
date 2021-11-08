@@ -240,12 +240,20 @@
     compute-scroll-into-view "1.0.14"
     copy-to-clipboard "3.3.1"
 
-"@chakra-ui/icon@1.1.13":
+"@chakra-ui/icon@1.1.13", "@chakra-ui/icon@^1.1.13":
   version "1.1.13"
   resolved "https://registry.yarnpkg.com/@chakra-ui/icon/-/icon-1.1.13.tgz#0b8222b6874f83a063b959dc106575800c2cd3c2"
   integrity sha512-yVZr1YMd3YEd0toHKmLxNH4LlLQ60vzuaKYVOmAO9c/gxxPMNYM4Il260Q5W2lxOOzoimfQnZlNfTUPCwHHfUg==
   dependencies:
     "@chakra-ui/utils" "1.8.4"
+
+"@chakra-ui/icons@^1.0.17":
+  version "1.0.17"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/icons/-/icons-1.0.17.tgz#c6aa9a85522c0d90fa7c4861cc02c532f57a8621"
+  integrity sha512-eu+xyABLTi+W5986UCfaBw8gPnh3xTxBHE4tMZ3VIkUaj0qYJiVer85pAe01Uud5OxJ1Mvw3G+gIbjuJFDEUQg==
+  dependencies:
+    "@chakra-ui/icon" "1.1.13"
+    "@types/react" "^17.0.0"
 
 "@chakra-ui/image@1.0.22":
   version "1.0.22"
