@@ -6,7 +6,8 @@ interface Props {
 }
 
 const AdminPage = ({ loggedIn }: Props) => {
-	return <>{loggedIn && <AdminLogin />}</>;
+	const adminLogin = loggedIn ? undefined : <AdminLogin />;
+	return <>{adminLogin}</>;
 };
 
 export default AdminPage;
