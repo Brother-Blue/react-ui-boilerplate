@@ -1,10 +1,12 @@
-import { ThemeToggle } from "components";
 import React from "react";
+import AdminLogin from "./adminLogin";
 
-// interface Props {}
+interface Props {
+	loggedIn?: boolean;
+}
 
-const AdminLogin = () => {
-	return <div>Admin page</div>;
+const AdminPage = ({ loggedIn }: Props) => {
+	return <>{loggedIn && <AdminLogin />}</>;
 };
 
-export default AdminLogin;
+export default AdminPage;
