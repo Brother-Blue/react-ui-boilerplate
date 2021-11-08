@@ -9,6 +9,7 @@ import {
 	Link,
 	Stack,
 	Image,
+	useColorModeValue,
 } from "@chakra-ui/react";
 
 export default function AdminLogin() {
@@ -20,7 +21,8 @@ export default function AdminLogin() {
 					w={"full"}
 					maxW={"md"}
 					style={{
-						border: "2px solid rgb(100,100,100)",
+						border: "2px solid",
+						borderColor: useColorModeValue("rgb(178,25,255)", "rgb(0,200,100)"),
 						borderRadius: "1rem",
 						padding: "1.2em",
 						boxShadow: "0 0 3px 3px rgba(10,10,10,0.3)",

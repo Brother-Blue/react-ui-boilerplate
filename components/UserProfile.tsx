@@ -19,7 +19,11 @@ export const UserProfile = () => {
 				bg={useColorModeValue("white", "gray.800")}
 				boxShadow={"2xl"}
 				rounded={"md"}
-				overflow={"hidden"}>
+				overflow={"hidden"}
+				style={{
+					border: "2px solid",
+					borderColor: useColorModeValue("rgb(178,25,255)", "rgb(0,200,100)"),
+				}}>
 				<Image
 					h={"120px"}
 					w={"full"}
