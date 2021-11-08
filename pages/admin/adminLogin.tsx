@@ -47,6 +47,10 @@ export default function AdminLogin() {
 					src={
 						"https://images.pexels.com/photos/2603464/pexels-photo-2603464.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 					}
+					style={{
+						borderRadius: "1rem",
+						boxShadow: "0 0 10px 5px rgba(10,10,10,0.5)",
+					}}
 				/>
 			</Flex>
 		</Stack>

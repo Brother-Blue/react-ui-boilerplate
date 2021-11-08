@@ -10,7 +10,14 @@ const Wrapper = ({ children }: Props) => {
 	return (
 		<Flex direction="column" minH="100vh">
 			<Navbar />
-			<Flex as="main" direction="column" flex="auto">
+			<Flex
+				as="main"
+				w="90%"
+				margin="auto"
+				align="center"
+				justify="center"
+				direction="column"
+				flex="auto">
 				{children}
 			</Flex>
 			<Footer />
